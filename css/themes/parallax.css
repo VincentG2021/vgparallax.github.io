@@ -1,0 +1,86 @@
+
+
+.game {
+overflow-x: hidden;
+background-image:url("../../img/11_background.png");
+height:100vh;
+width:120%;
+position: relative;
+
+/* Créez le parallax effect */
+/* background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover; */
+}
+
+.story {
+    position:absolute;
+    display: inline-flex;
+    align-items: center;
+}
+
+.adapt {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    left: -100px;
+}
+
+.ground {
+    /* background-image:url("../../img/01_ground.png"); */
+    z-index: 11;
+    
+    /* background-attachment:fixed;
+    background-position:center;
+    background-repeat:repeat-x;
+    background-size:cover; */
+}
+
+.trees {
+    z-index: 10;
+}
+
+.distant-trees {
+    z-index: 9;
+}
+
+.bushes {
+    z-index: 8;
+}
+
+.hill1{
+    z-index: 7;
+}
+
+.hill2{
+    z-index: 6;
+}
+
+.huge-clouds {
+    /* background-image:url("../../img/07_huge_clouds.png"); */
+    z-index: 5;
+    
+    /* background-attachment:scroll;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover; */
+}
+
+.clouds {
+    /* background-image:url("../../img/08_clouds.png"); */
+    z-index: 4;
+    
+    /* background-attachment:local, scroll;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover; */
+}
+
+.distant-clouds1 {
+    z-index: 3;
+}
+
+.distant-clouds {
+    z-index: 2;
+}
